@@ -10,12 +10,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
 import { SearchComponent } from './home/search/search.component';
 import { ImmunizationRecordComponent } from './home/immunization-record/immunization-record.component';
+import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    ImmunizationRecordComponent
+    ImmunizationRecordComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,9 @@ import { ImmunizationRecordComponent } from './home/immunization-record/immuniza
     MatGridListModule,
     MatInputModule,
     MatButtonModule,
-    MatTableModule
+    MatTableModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

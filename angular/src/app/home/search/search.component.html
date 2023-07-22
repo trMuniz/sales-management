@@ -1,9 +1,6 @@
 <div class="container">
   <mat-grid-list cols="12" rowHeight="100px">
     <div>
-      <h1>Sales</h1>
-    </div>
-    <div>
       <mat-form-field style="width: 100%; min-width: 150px">
         <mat-label>Description</mat-label>
         <input matInput />
@@ -35,10 +32,7 @@
 
 <div class="container">
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-    <ng-container
-      [matColumnDef]="column"
-      *ngFor="let column of displayedColumns"
-    >
+    <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns">
       <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
       <td mat-cell *matCellDef="let element">{{ element[column] }}</td>
     </ng-container>
