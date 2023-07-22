@@ -8,10 +8,14 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
+import { SearchComponent } from './home/search/search.component';
+import { ImmunizationRecordComponent } from './home/immunization-record/immunization-record.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchComponent,
+    ImmunizationRecordComponent
   ],
   imports: [
     BrowserModule,

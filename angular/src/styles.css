@@ -26,5 +26,16 @@ table {
 }
 
 .mat-elevation-z8 {
-    margin-top: 160px;
+    margin: 160px auto;
+}
+
+@media print {
+    .rodape {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0px;
+    }
 }

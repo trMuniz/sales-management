@@ -1,0 +1,104 @@
+<div class="container"
+    style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
+    <img src="https://eportugal.gov.pt/o/servgov-theme/images/redesign/logo_Portugal.svg"
+        alt="Brasão do Governo de Portugal" style="max-height: 100px;">
+    <img src="https://www.sns.gov.pt/wp-content/themes/sns/images/popup_logo.png" alt="Logo do SNS Portugal"
+        style="max-height: 100px;">
+</div>
+
+<div class="container"
+    style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
+
+</div>
+
+<div class="container" style="margin: 50px auto;">
+    <h2
+        style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
+        Dados do Utente</h2>
+    <table>
+        <tr>
+            <td><strong>Nome: </strong>
+                <label>Rayanne Oliveira Muniz</label>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Data de Nascimento: </strong>
+                <label>1993-03-06</label>
+        </tr>
+        <tr>
+            <td><strong>Nacionalidade: </strong>
+                <label>Brasileira</label>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Sexo: </strong>
+                <label>Feminino</label>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Endereço: </strong>
+                <label>Rua Sabino de Sousa, 102A - Lisboa - Lisboa - 1900-403</label>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Telefone: </strong>
+                <label>917 162 000</label>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Número de Identificação Fiscal: </strong>
+                <label>294087559</label>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="container" style="margin: 10px auto;">
+    <h3
+        style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
+        Histórico de Vacinas</h3>
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+        <ng-container matColumnDef="nome_vacina">
+            <th mat-header-cell *matHeaderCellDef> Nome </th>
+            <td mat-cell *matCellDef="let element"> {{element.nome_vacina}} </td>
+        </ng-container>
+        <ng-container matColumnDef="nome_tecnico">
+            <th mat-header-cell *matHeaderCellDef> Terminologia </th>
+            <td mat-cell *matCellDef="let element"> {{element.nome_tecnico}} </td>
+        </ng-container>
+        <ng-container matColumnDef="fabricante">
+            <th mat-header-cell *matHeaderCellDef> Fabricante </th>
+            <td mat-cell *matCellDef="let element"> {{element.fabricante}} </td>
+        </ng-container>
+        <ng-container matColumnDef="data_vacinacao">
+            <th mat-header-cell *matHeaderCellDef> Data de Imunização </th>
+            <td mat-cell *matCellDef="let element"> {{element.data_vacinacao}} </td>
+        </ng-container>
+        <ng-container matColumnDef="dose">
+            <th mat-header-cell *matHeaderCellDef> Dose </th>
+            <td mat-cell *matCellDef="let element"> {{element.dose}} </td>
+        </ng-container>
+        <ng-container matColumnDef="numero_lote">
+            <th mat-header-cell *matHeaderCellDef> Lote </th>
+            <td mat-cell *matCellDef="let element"> {{element.numero_lote}} </td>
+        </ng-container>
+        <ng-container matColumnDef="descricao">
+            <th mat-header-cell *matHeaderCellDef> Descrição </th>
+            <td mat-cell *matCellDef="let element"> {{element.descricao}} </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+</div>
+
+<div class="container"
+    style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
+    <img src="https://www.sns.gov.pt/wp-content/uploads/2017/07/Republica_Portuguesa_logo.svg"
+        alt="Brasão do Governo de Portugal" style="max-height: 100px;">
+    <img src="https://www.sns.gov.pt/wp-content/uploads/2020/04/logo_sns.svg" alt="Logo do SNS Portugal"
+        style="max-height: 100px;">
+</div>
+
+<div class="rodape">
+    <p>Utente: Rayanne Oliveira Muniz | Data de Nascimento: 1993-03-06 | NIF: 294087559</p>
+</div>
