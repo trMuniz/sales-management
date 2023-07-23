@@ -1,20 +1,22 @@
-<div class="navbar">
-    <nav>
-        <mat-toolbar color="primary">
-            <div class="container">
-                <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-                    <mat-icon>menu</mat-icon>
-                </button>
-                <span>Sales Management</span>
-                <span class="example-spacer"></span>
-                <button mat-icon-button class="example-icon favorite-icon"
-                    aria-label="Example icon-button with heart icon">
-                    <mat-icon>favorite</mat-icon>
-                </button>
-                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-                    <mat-icon>share</mat-icon>
-                </button>
-            </div>
-        </mat-toolbar>
-    </nav>
-</div>
+<nav class="navbar">
+    <mat-toolbar color="primary">
+        <button (click)="showNavMenu()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>Sales Management</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon>share</mat-icon>
+        </button>
+    </mat-toolbar>
+
+    <ul class="navbar-menu" *ngIf="show">
+        <li class="navbar-user">Administrator</li>
+        <li class="navbar-menu-item"><a href="#">Sales</a></li>
+        <li class="navbar-menu-item"><a href="#">People</a></li>
+        <li class="navbar-menu-item"><a href="#">Logout</a></li>
+    </ul>
+</nav>
