@@ -1,6 +1,6 @@
 <nav class="navbar">
     <mat-toolbar color="primary">
-        <button (click)="showNavMenu()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <button (click)="showNavBarMenu = !showNavBarMenu" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
             <mat-icon>menu</mat-icon>
         </button>
         <span>Sales Management</span>
@@ -13,7 +13,7 @@
         </button>
     </mat-toolbar>
 
-    <ul class="navbar-menu" *ngIf="show">
+    <ul class="navbar-menu" *ngIf="showNavBarMenu">
         <li class="navbar-user">Administrator</li>
         <li class="navbar-menu-item"><a href="#">Sales</a></li>
         <li class="navbar-menu-item"><a href="#">People</a></li>

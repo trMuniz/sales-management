@@ -10,11 +10,8 @@ exports.NavigationBarComponent = void 0;
 var core_1 = require("@angular/core");
 var NavigationBarComponent = /** @class */ (function () {
     function NavigationBarComponent() {
-        this.show = false;
+        this.showNavBarMenu = false;
     }
-    NavigationBarComponent.prototype.showNavMenu = function () {
-        this.show = !this.show;
-    };
     NavigationBarComponent = __decorate([
         core_1.Component({
             selector: 'app-navigation-bar',

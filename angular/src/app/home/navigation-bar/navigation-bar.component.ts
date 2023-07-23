@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NavigationBarComponent {
 
-  show = false;
-
-  showNavMenu() {
-    this.show = !this.show;
-  }
+  showNavBarMenu = false;
 
 }
