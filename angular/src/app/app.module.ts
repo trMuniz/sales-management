@@ -13,13 +13,16 @@ import { ImmunizationRecordComponent } from './home/immunization-record/immuniza
 import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { SearchService } from './home/search/search.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     ImmunizationRecordComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,9 +33,11 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     MatTableModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
