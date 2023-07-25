@@ -22,12 +22,15 @@ mat-label {
     }
 }
 
+/* Only for Immunization component 
+.mat-elevation-z8 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+*/
+
 table {
     width: 100%;
-}
-
-.mat-elevation-z8 {
-    margin: 160px auto;
 }
 
 @media print {

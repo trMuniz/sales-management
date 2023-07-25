@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "id": 3,
+      "name": "Thiago Matheus Oliveira Muniz",
+      "birth": "2012-10-14",
+      "nationality": "Brasileira",
+      "gender": "Masculino",
+      "nif": "294087893",
+      "phone": "917 160 300",
+      "email": "muniz@duck.com",
+      "address": "Rua Sabino de Sousa, 102A - Lisboa - Lisboa - 1900-403",
+      "created_at": "2019-11-29T16:00:00.000Z",
+      "updated_at": "2019-11-29T16:00:00.000Z"
+    }
+  ]
+}

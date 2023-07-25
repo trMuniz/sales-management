@@ -16,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { SearchService } from './home/search/search.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ImmunizationRecordService } from './home/immunization-record/immunization-record.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule
   ],
-  providers: [SearchService],
+  providers: [SearchService, ImmunizationRecordService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

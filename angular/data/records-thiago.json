@@ -1,0 +1,379 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "name": "Thiago Rafael Muniz Oliveira",
+      "birth": "1985-12-29",
+      "nationality": "Brasileira",
+      "gender": "Masculino",
+      "nif": "294087567",
+      "phone": "917 160 300",
+      "email": "muniz@duck.com",
+      "address": "Rua Sabino de Sousa, 102A - Lisboa - Lisboa - 1900-403",
+      "created_at": "2019-11-29T16:00:00.000Z",
+      "updated_at": "2019-11-29T16:00:00.000Z",
+      "immunizations": [
+        {
+          "nome_vacina": "BCG",
+          "nome_tecnico": "Vacina BCG",
+          "fabricante": "Serum Institute of India",
+          "dose": "1ª dose",
+          "data_vacinacao": "1986-01-03",
+          "numero_lote": "BCG123456",
+          "descricao": "Vacina contra tuberculose."
+        },
+        {
+          "nome_vacina": "Hepatite B",
+          "nome_tecnico": "Vacina Hepatite B",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "1986-01-10",
+          "numero_lote": "HB123456",
+          "descricao": "Vacina contra hepatite B."
+        },
+        {
+          "nome_vacina": "Poliomielite",
+          "nome_tecnico": "Vacina Poliomielite",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "1986-01-10",
+          "numero_lote": "PV123456",
+          "descricao": "Vacina contra poliomielite."
+        },
+        {
+          "nome_vacina": "Tríplice Viral (MMR)",
+          "nome_tecnico": "Vacina Tríplice Viral (MMR)",
+          "fabricante": "Merck & Co.",
+          "dose": "1ª dose",
+          "data_vacinacao": "1986-01-10",
+          "numero_lote": "MMR123456",
+          "descricao": "Vacina contra sarampo, caxumba e rubéola."
+        },
+        {
+          "nome_vacina": "DTP",
+          "nome_tecnico": "Vacina Tríplice Bacteriana (DTP)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "1986-01-10",
+          "numero_lote": "DTP123456",
+          "descricao": "Vacina contra difteria, tétano e coqueluche."
+        },
+        {
+          "nome_vacina": "Haemophilus influenzae type B",
+          "nome_tecnico": "Vacina Haemophilus influenzae tipo B",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "1986-01-10",
+          "numero_lote": "HIB123456",
+          "descricao": "Vacina contra Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "Poliomielite",
+          "nome_tecnico": "Vacina Poliomielite",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "1986-02-05",
+          "numero_lote": "PV654321",
+          "descricao": "Vacina contra poliomielite."
+        },
+        {
+          "nome_vacina": "DTP",
+          "nome_tecnico": "Vacina Tríplice Bacteriana (DTP)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "1986-02-05",
+          "numero_lote": "DTP654321",
+          "descricao": "Vacina contra difteria, tétano e coqueluche."
+        },
+        {
+          "nome_vacina": "Poliomielite",
+          "nome_tecnico": "Vacina Poliomielite",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "3ª dose",
+          "data_vacinacao": "1986-04-18",
+          "numero_lote": "PV789012",
+          "descricao": "Vacina contra poliomielite."
+        },
+        {
+          "nome_vacina": "Tríplice Viral (MMR)",
+          "nome_tecnico": "Vacina Tríplice Viral (MMR)",
+          "fabricante": "Merck & Co.",
+          "dose": "2ª dose",
+          "data_vacinacao": "1990-04-16",
+          "numero_lote": "MMR654321",
+          "descricao": "Vacina contra sarampo, caxumba e rubéola."
+        },
+        {
+          "nome_vacina": "Haemophilus influenzae type B",
+          "nome_tecnico": "Vacina Haemophilus influenzae tipo B",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "1990-04-16",
+          "numero_lote": "HIB654321",
+          "descricao": "Vacina contra Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "Poliomielite",
+          "nome_tecnico": "Vacina Poliomielite",
+          "fabricante": "Butantan",
+          "dose": "1ª dose",
+          "data_vacinacao": "1993-08-25",
+          "numero_lote": "PV987654",
+          "descricao": "Vacina contra poliomielite."
+        },
+        {
+          "nome_vacina": "DTP",
+          "nome_tecnico": "Vacina Tríplice Bacteriana (DTP)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "3ª dose",
+          "data_vacinacao": "1995-08-01",
+          "numero_lote": "DTP789012",
+          "descricao": "Vacina contra difteria, tétano e coqueluche."
+        },
+        {
+          "nome_vacina": "Hepatite B",
+          "nome_tecnico": "Vacina Hepatite B",
+          "fabricante": "Butantan",
+          "dose": "1ª dose",
+          "data_vacinacao": "1995-08-01",
+          "numero_lote": "HB987654",
+          "descricao": "Vacina contra hepatite B."
+        },
+        {
+          "nome_vacina": "Haemophilus influenzae type B",
+          "nome_tecnico": "Vacina Haemophilus influenzae tipo B",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "3ª dose",
+          "data_vacinacao": "1995-08-01",
+          "numero_lote": "HIB789012",
+          "descricao": "Vacina contra Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "Febre Amarela",
+          "nome_tecnico": "Vacina Febre Amarela",
+          "fabricante": "Instituto de Tecnologia em Imunobiológicos (Bio-Manguinhos/Fiocruz)",
+          "dose": "1ª dose",
+          "data_vacinacao": "1998-06-20",
+          "numero_lote": "FA654520B",
+          "descricao": "Vacina contra febre amarela."
+        },
+        {
+          "nome_vacina": "Malária",
+          "nome_tecnico": "Vacina contra Malária (RTS,S)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "1998-08-10",
+          "numero_lote": "RTSS19980810D1",
+          "descricao": "Vacina experimental contra malária (RTS,S), desenvolvida pela GSK em parceria com a PATH Malaria Vaccine Initiative."
+        },
+        {
+          "nome_vacina": "Raiva",
+          "nome_tecnico": "Vacina contra Raiva",
+          "fabricante": "Sanofi Pasteur",
+          "dose": "1ª dose",
+          "data_vacinacao": "1998-09-05",
+          "numero_lote": "RVJ19980905D1",
+          "descricao": "Vacina contra a raiva."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "1999-05-15",
+          "numero_lote": "INF123456",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Febre Amarela",
+          "nome_tecnico": "Vacina Febre Amarela",
+          "fabricante": "Instituto de Tecnologia em Imunobiológicos (Bio-Manguinhos/Fiocruz)",
+          "dose": "2ª dose",
+          "data_vacinacao": "1999-05-15",
+          "numero_lote": "FAHS768A4",
+          "descricao": "Vacina contra febre amarela."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2000-06-20",
+          "numero_lote": "INF654321",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "DTP",
+          "nome_tecnico": "Vacina Tríplice Bacteriana (DTP)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "4ª dose",
+          "data_vacinacao": "2000-10-10",
+          "numero_lote": "DTP987654",
+          "descricao": "Vacina contra difteria, tétano e coqueluche."
+        },
+        {
+          "nome_vacina": "Poliomielite",
+          "nome_tecnico": "Vacina Poliomielite",
+          "fabricante": "Butantan",
+          "dose": "Ref Dose",
+          "data_vacinacao": "2001-01-15",
+          "numero_lote": "PV987654",
+          "descricao": "Vacina contra poliomielite (dose de reforço)."
+        },
+        {
+          "nome_vacina": "Tríplice Viral (MMR)",
+          "nome_tecnico": "Vacina Tríplice Viral (MMR)",
+          "fabricante": "Merck & Co.",
+          "dose": "3ª dose",
+          "data_vacinacao": "2001-05-20",
+          "numero_lote": "MMR789012",
+          "descricao": "Vacina contra sarampo, caxumba e rubéola."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2001-07-25",
+          "numero_lote": "INF789012",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Febre Amarela",
+          "nome_tecnico": "Vacina Febre Amarela",
+          "fabricante": "Instituto de Tecnologia em Imunobiológicos (Bio-Manguinhos/Fiocruz)",
+          "dose": "Dose de Reforço",
+          "data_vacinacao": "2001-08-12",
+          "numero_lote": "FA789012",
+          "descricao": "Vacina contra febre amarela."
+        },
+        {
+          "nome_vacina": "Tríplice Viral (MMR)",
+          "nome_tecnico": "Vacina Tríplice Viral (MMR)",
+          "fabricante": "Merck & Co.",
+          "dose": "4ª dose",
+          "data_vacinacao": "2002-10-25",
+          "numero_lote": "MMR345678",
+          "descricao": "Vacina contra sarampo, caxumba e rubéola."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2002-12-10",
+          "numero_lote": "INF234567",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2003-12-10",
+          "numero_lote": "INF345678",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2004-05-19",
+          "numero_lote": "INF456789",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "DTP",
+          "nome_tecnico": "Vacina Tríplice Bacteriana (DTP)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "5ª dose",
+          "data_vacinacao": "2005-02-15",
+          "numero_lote": "DTP234567",
+          "descricao": "Vacina contra difteria, tétano e coqueluche."
+        },
+        {
+          "nome_vacina": "Raiva",
+          "nome_tecnico": "Vacina contra Raiva",
+          "fabricante": "Sanofi Pasteur",
+          "dose": "Reforço",
+          "data_vacinacao": "2005-03-15",
+          "numero_lote": "RVA20050315R1",
+          "descricao": "Vacina contra a raiva (dose de reforço)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2007-11-23",
+          "numero_lote": "INF789012",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Poliomielite",
+          "nome_tecnico": "Vacina Poliomielite",
+          "fabricante": "Butantan",
+          "dose": "Ref Dose",
+          "data_vacinacao": "2010-09-22",
+          "numero_lote": "PV543210",
+          "descricao": "Vacina contra poliomielite (dose de reforço)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2013-04-12",
+          "numero_lote": "INF890123",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Tríplice Bacteriana Acelular do Adulto (dTpa)",
+          "nome_tecnico": "Vacina Tríplice Bacteriana Acelular do Adulto (dTpa)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "2015-03-10",
+          "numero_lote": "dTpa201503A0L1",
+          "descricao": "Vacina contra difteria, tétano e coqueluche para adultos."
+        },
+        {
+          "nome_vacina": "Tríplice Bacteriana Acelular do Adulto (dTpa)",
+          "nome_tecnico": "Vacina Tríplice Bacteriana Acelular do Adulto (dTpa)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "2016-07-20",
+          "numero_lote": "dTpa20160720D2",
+          "descricao": "Vacina contra difteria, tétano e coqueluche para adultos."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2016-07-22",
+          "numero_lote": "INF390143",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Tríplice Bacteriana Acelular do Adulto (dTpa)",
+          "nome_tecnico": "Vacina Tríplice Bacteriana Acelular do Adulto (dTpa)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "3ª dose",
+          "data_vacinacao": "2017-12-15",
+          "numero_lote": "dTpa20171215QA",
+          "descricao": "Vacina contra difteria, tétano e coqueluche para adultos."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2020-02-19",
+          "numero_lote": "INF390223",
+          "descricao": "Vacina contra Influenza (gripe)."
+        }
+      ]
+    }
+  ]
+}

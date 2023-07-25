@@ -14,40 +14,65 @@
 <div class="container" style="margin: 50px auto;">
     <h2
         style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
-        Dados do Utente</h2>
-    <table>
+        Dados do Utente
+    </h2>
+    <div style="display: flex; justify-content: end; right: 0; position: absolute;">
+        <table style="width: 30%; display: flex; margin-right: 100px;">
+            <tr style="border-style: dotted; border-color: rgb(238, 238, 238);">
+                <td>
+                    <div>
+                        <a href="www.qr-code-generator.com/" border="0" style="cursor:default; display:inline-block;"
+                            rel="nofollow"></a><img
+                            src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fautenticacao.gov.pt%2Ffa%2FCitizenConsent.aspx%3FRequestId%3D1c7b86ef-1bfc-4f4a-a569-97290ee96af3%26type%3D&chs=180x180&choe=UTF-8&chld=L|2">
+                    </div>
+                </td>
+                <td>
+                    <div style="font-size: 12px; line-height: 15px;">
+                        <p>
+                            Este certificado pode ser verificado
+                            ao utilizar a aplicação <strong>SNS 24</strong> ou
+                            ao aceder ao sítio web <strong>https://servicos.min-saude.pt/utente/</strong>
+                            após a inserção da chave móvel digital ou os dados do utente para autenticação em ambiente seguro.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <table *ngFor="let user of users" style="width: 50%; left: 0;">
         <tr>
             <td><strong>Nome: </strong>
-                <label>Rayanne Oliveira Muniz</label>
+                <label>{{ user.name }}</label>
             </td>
         </tr>
         <tr>
             <td><strong>Data de Nascimento: </strong>
-                <label>1993-03-06</label>
+                <label>{{ user.birth }}</label>
+            </td>
         </tr>
         <tr>
             <td><strong>Nacionalidade: </strong>
-                <label>Brasileira</label>
+                <label>{{ user.nationality }}</label>
             </td>
         </tr>
         <tr>
             <td><strong>Sexo: </strong>
-                <label>Feminino</label>
+                <label>{{ user.gender }}</label>
             </td>
         </tr>
         <tr>
             <td><strong>Endereço: </strong>
-                <label>Rua Sabino de Sousa, 102A - Lisboa - Lisboa - 1900-403</label>
+                <label>{{ user.address }}</label>
             </td>
         </tr>
         <tr>
             <td><strong>Telefone: </strong>
-                <label>917 162 000</label>
+                <label>{{ user.phone }}</label>
             </td>
         </tr>
         <tr>
             <td><strong>Número de Identificação Fiscal: </strong>
-                <label>294087559</label>
+                <label>{{ user.nif }}</label>
             </td>
         </tr>
     </table>
@@ -57,10 +82,10 @@
     <h3
         style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f0f0f0;">
         Histórico de Vacinas</h3>
-    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-        <ng-container [matColumnDef]="column" *ngFor="let column of displayedColumns">
-            <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
-            <td mat-cell *matCellDef="let element">{{ element[column] }}</td>
+    <table mat-table [dataSource]="immunizations" class="mat-elevation-z8">
+        <ng-container [matColumnDef]="column.name" *ngFor="let column of initColumns">
+            <th mat-header-cell *matHeaderCellDef>{{ column.display }}</th>
+            <td mat-cell *matCellDef="let element">{{ element[column.name] }}</td>
         </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
@@ -75,6 +100,6 @@
         style="max-height: 100px;">
 </div>
 
-<div class="rodape">
-    <p>Utente: Rayanne Oliveira Muniz | Data de Nascimento: 1993-03-06 | NIF: 294087559</p>
+<div class="rodape" *ngFor="let user of users">
+    <p>Utente: {{user.name}} | Data de Nascimento: {{user.birth}} | NIF: {{user.nif}}</p>
 </div>
