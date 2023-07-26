@@ -311,6 +311,24 @@
           "descricao": "Vacina contra Influenza (gripe)."
         },
         {
+          "nome_vacina": "Hepatite A",
+          "nome_tecnico": "Vacina Hepatite A",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "1ª dose",
+          "data_vacinacao": "2010-05-15",
+          "numero_lote": "HA20210515A",
+          "descricao": "Vacina contra hepatite A."
+        },
+        {
+          "nome_vacina": "Hepatite A",
+          "nome_tecnico": "Vacina Hepatite A",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "2ª dose",
+          "data_vacinacao": "2010-08-20",
+          "numero_lote": "HA20210820B",
+          "descricao": "Vacina contra hepatite A."
+        },
+        {
           "nome_vacina": "Poliomielite",
           "nome_tecnico": "Vacina Poliomielite",
           "fabricante": "Butantan",
@@ -318,6 +336,33 @@
           "data_vacinacao": "2010-09-22",
           "numero_lote": "PV543210",
           "descricao": "Vacina contra poliomielite (dose de reforço)."
+        },
+        {
+          "nome_vacina": "Rotavírus",
+          "nome_tecnico": "Vacina Rotavírus",
+          "fabricante": "Merck & Co.",
+          "dose": "1ª dose",
+          "data_vacinacao": "2012-03-10",
+          "numero_lote": "RV20120310X",
+          "descricao": "Vacina contra rotavírus."
+        },
+        {
+          "nome_vacina": "Rotavírus",
+          "nome_tecnico": "Vacina Rotavírus",
+          "fabricante": "Merck & Co.",
+          "dose": "2ª dose",
+          "data_vacinacao": "2012-05-15",
+          "numero_lote": "RV20120515Y",
+          "descricao": "Vacina contra rotavírus."
+        },
+        {
+          "nome_vacina": "Rotavírus",
+          "nome_tecnico": "Vacina Rotavírus",
+          "fabricante": "Merck & Co.",
+          "dose": "3ª dose",
+          "data_vacinacao": "2012-08-22",
+          "numero_lote": "RV20120822Z",
+          "descricao": "Vacina contra rotavírus."
         },
         {
           "nome_vacina": "Influenza",
@@ -336,6 +381,15 @@
           "data_vacinacao": "2015-03-10",
           "numero_lote": "dTpa201503A0L1",
           "descricao": "Vacina contra difteria, tétano e coqueluche para adultos."
+        },
+        {
+          "nome_vacina": "Hepatite A",
+          "nome_tecnico": "Vacina Hepatite A",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "3ª dose",
+          "data_vacinacao": "2015-11-30",
+          "numero_lote": "HA20151130C",
+          "descricao": "Vacina contra hepatite A."
         },
         {
           "nome_vacina": "Tríplice Bacteriana Acelular do Adulto (dTpa)",
