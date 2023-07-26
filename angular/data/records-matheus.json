@@ -11,7 +11,342 @@
       "email": "muniz@duck.com",
       "address": "Rua Sabino de Sousa, 102A - Lisboa - Lisboa - 1900-403",
       "created_at": "2019-11-29T16:00:00.000Z",
-      "updated_at": "2019-11-29T16:00:00.000Z"
+      "updated_at": "2019-11-29T16:00:00.000Z",
+      "immunizations": [
+        {
+          "nome_vacina": "Hepatite B PED",
+          "nome_tecnico": "Vacina Hepatite B (PEDIÁTRICA)",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "1ª dose",
+          "data_vacinacao": "2012-10-14",
+          "numero_lote": "HB8F2A1D",
+          "descricao": "Vacina contra Hepatite B (PEDIÁTRICA)."
+        },
+        {
+          "nome_vacina": "BCG",
+          "nome_tecnico": "Vacina BCG",
+          "fabricante": "Serum Institute of India",
+          "dose": "1ª dose",
+          "data_vacinacao": "2012-10-29",
+          "numero_lote": "BCG6E7B2F",
+          "descricao": "Vacina contra tuberculose."
+        },
+        {
+          "nome_vacina": "Hepatite B PED",
+          "nome_tecnico": "Vacina Hepatite B (PEDIÁTRICA)",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "2ª dose",
+          "data_vacinacao": "2012-12-14",
+          "numero_lote": "HB3A9C5B",
+          "descricao": "Vacina contra Hepatite B (PEDIÁTRICA)."
+        },
+        {
+          "nome_vacina": "Rotavírus",
+          "nome_tecnico": "Vacina Rotavírus",
+          "fabricante": "Merck & Co.",
+          "dose": "1ª dose",
+          "data_vacinacao": "2012-12-14",
+          "numero_lote": "RV1C8E4F",
+          "descricao": "Vacina contra Rotavírus."
+        },
+        {
+          "nome_vacina": "Vacina Poliomielite Inativada",
+          "nome_tecnico": "IPV",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "2012-12-14",
+          "numero_lote": "IPV2D9B6A",
+          "descricao": "Vacina contra poliomielite inativada."
+        },
+        {
+          "nome_vacina": "DTAP-HIB",
+          "nome_tecnico": "Vacina Combinada DTaP-Hib",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "1ª dose",
+          "data_vacinacao": "2012-12-14",
+          "numero_lote": "DTAP2F7C1E",
+          "descricao": "Vacina combinada contra difteria, tétano, coqueluche, Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "Febre Amarela",
+          "nome_tecnico": "Vacina Febre Amarela",
+          "fabricante": "Bio-Manguinhos (Fiocruz)",
+          "dose": "1ª dose",
+          "data_vacinacao": "2013-01-10",
+          "numero_lote": "FA5B3E7D",
+          "descricao": "Vacina contra Febre Amarela."
+        },
+        {
+          "nome_vacina": "PCV10",
+          "nome_tecnico": "Vacina Pneumocócica Conjugada 10-valente",
+          "fabricante": "Pfizer",
+          "dose": "1ª dose",
+          "data_vacinacao": "2013-01-14",
+          "numero_lote": "PCV10B4F8C",
+          "descricao": "Vacina contra pneumococo (forma pediátrica)."
+        },
+        {
+          "nome_vacina": "Hepatite A",
+          "nome_tecnico": "Vacina Hepatite A",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "2013-01-14",
+          "numero_lote": "HA1A7D6F",
+          "descricao": "Vacina contra hepatite A."
+        },
+        {
+          "nome_vacina": "MEN C",
+          "nome_tecnico": "Vacina Meningocócica Conjugada (Sorogrupo C)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "1ª dose",
+          "data_vacinacao": "2013-01-14",
+          "numero_lote": "MEN4B6E2D",
+          "descricao": "Vacina contra meningite meningocócica do sorogrupo C."
+        },
+        {
+          "nome_vacina": "Rotavírus",
+          "nome_tecnico": "Vacina Rotavírus",
+          "fabricante": "Merck & Co.",
+          "dose": "2ª dose",
+          "data_vacinacao": "2013-02-14",
+          "numero_lote": "RV8A3C1B",
+          "descricao": "Vacina contra Rotavírus."
+        },
+        {
+          "nome_vacina": "Hepatite B PED",
+          "nome_tecnico": "Vacina Hepatite B (PEDIÁTRICA)",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "3ª dose",
+          "data_vacinacao": "2013-02-14",
+          "numero_lote": "HB5F2D7A",
+          "descricao": "Vacina contra Hepatite B (PEDIÁTRICA)."
+        },
+        {
+          "nome_vacina": "Vacina Poliomielite Inativada",
+          "nome_tecnico": "IPV",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "2013-02-14",
+          "numero_lote": "IPV1E8B6C",
+          "descricao": "Vacina contra poliomielite inativada."
+        },
+        {
+          "nome_vacina": "DTAP-HIB",
+          "nome_tecnico": "Vacina Combinada DTaP-Hib",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "2ª dose",
+          "data_vacinacao": "2013-02-14",
+          "numero_lote": "DTAP2D5F1A",
+          "descricao": "Vacina combinada contra difteria, tétano, coqueluche, Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "PCV10",
+          "nome_tecnico": "Vacina Pneumocócica Conjugada 10-valente",
+          "fabricante": "Pfizer",
+          "dose": "2ª dose",
+          "data_vacinacao": "2013-03-14",
+          "numero_lote": "PCV102E7C5B",
+          "descricao": "Vacina contra pneumococo (forma pediátrica)."
+        },
+        {
+          "nome_vacina": "MEN C",
+          "nome_tecnico": "Vacina Meningocócica Conjugada (Sorogrupo C)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "2013-03-14",
+          "numero_lote": "MEN9B5A3C",
+          "descricao": "Vacina contra meningite meningocócica do sorogrupo C."
+        },
+        {
+          "nome_vacina": "MEN C",
+          "nome_tecnico": "Vacina Meningocócica Conjugada (Sorogrupo C)",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "3ª dose",
+          "data_vacinacao": "2013-12-03",
+          "numero_lote": "MEN7D6E8A",
+          "descricao": "Vacina contra meningite meningocócica do sorogrupo C."
+        },
+        {
+          "nome_vacina": "Hepatite A",
+          "nome_tecnico": "Vacina Hepatite A",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "2ª dose",
+          "data_vacinacao": "2013-04-14",
+          "numero_lote": "HA4C1E8D",
+          "descricao": "Vacina contra hepatite A."
+        },
+        {
+          "nome_vacina": "Hepatite B PED",
+          "nome_tecnico": "Vacina Hepatite B (PEDIÁTRICA)",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "4ª dose",
+          "data_vacinacao": "2013-04-16",
+          "numero_lote": "HB1D9F5C",
+          "descricao": "Vacina contra Hepatite B (PEDIÁTRICA)."
+        },
+        {
+          "nome_vacina": "DTAP-HIB",
+          "nome_tecnico": "Vacina Combinada DTaP-Hib",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "3ª dose",
+          "data_vacinacao": "2013-04-16",
+          "numero_lote": "DTAP3A6B8C",
+          "descricao": "Vacina combinada contra difteria, tétano, coqueluche, Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "Vacina Poliomielite Inativada",
+          "nome_tecnico": "IPV",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "3ª dose",
+          "data_vacinacao": "2013-06-21",
+          "numero_lote": "IPV5C2D9E",
+          "descricao": "Vacina contra poliomielite inativada."
+        },
+        {
+          "nome_vacina": "MMR",
+          "nome_tecnico": "Vacina Tríplice Viral (MMR)",
+          "fabricante": "Merck & Co.",
+          "dose": "1ª dose",
+          "data_vacinacao": "2013-10-23",
+          "numero_lote": "MMR3F5A2B",
+          "descricao": "Vacina contra sarampo, caxumba e rubéola."
+        },
+        {
+          "nome_vacina": "PCV10",
+          "nome_tecnico": "Vacina Pneumocócica Conjugada 10-valente",
+          "fabricante": "Pfizer",
+          "dose": "3ª dose",
+          "data_vacinacao": "2013-12-03",
+          "numero_lote": "PCV10E4B1C",
+          "descricao": "Vacina contra pneumococo (forma pediátrica)."
+        },
+        {
+          "nome_vacina": "DTAP-HIB",
+          "nome_tecnico": "Vacina Combinada DTaP-Hib",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "4ª dose",
+          "data_vacinacao": "2014-01-14",
+          "numero_lote": "DTAP4C5D1A",
+          "descricao": "Vacina combinada contra difteria, tétano, coqueluche, Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "MMRV",
+          "nome_tecnico": "Vacina Tetraviral (MMRV)",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "1ª dose",
+          "data_vacinacao": "2014-01-14",
+          "numero_lote": "MMR2B8C1D",
+          "descricao": "Vacina contra sarampo, caxumba, rubéola e varicela (catapora)."
+        },
+        {
+          "nome_vacina": "MMR",
+          "nome_tecnico": "Vacina Tríplice Viral (MMR)",
+          "fabricante": "Merck & Co.",
+          "dose": "2ª dose",
+          "data_vacinacao": "2014-11-08",
+          "numero_lote": "MMR1D5E2C",
+          "descricao": "Vacina contra sarampo, caxumba e rubéola."
+        },
+        {
+          "nome_vacina": "Vacina Poliomielite Inativada",
+          "nome_tecnico": "IPV",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "4ª dose",
+          "data_vacinacao": "2014-11-08",
+          "numero_lote": "IPV9E6A3B",
+          "descricao": "Vacina contra poliomielite inativada."
+        },
+        {
+          "nome_vacina": "Vacina Poliomielite Inativada",
+          "nome_tecnico": "IPV",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "5ª dose",
+          "data_vacinacao": "2015-09-01",
+          "numero_lote": "IPV3A9B7C",
+          "descricao": "Vacina contra poliomielite inativada."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2016-09-25",
+          "numero_lote": "INF7B6C1D",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "DTAP-HIB",
+          "nome_tecnico": "Vacina Combinada DTaP-Hib",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "5ª dose",
+          "data_vacinacao": "2016-10-14",
+          "numero_lote": "DTAP3E8A1D",
+          "descricao": "Vacina combinada contra difteria, tétano, coqueluche, Haemophilus influenzae tipo B."
+        },
+        {
+          "nome_vacina": "Febre Amarela",
+          "nome_tecnico": "Vacina Febre Amarela",
+          "fabricante": "Bio-Manguinhos (Fiocruz)",
+          "dose": "2ª dose",
+          "data_vacinacao": "2016-10-14",
+          "numero_lote": "FA1B4C8D",
+          "descricao": "Vacina contra Febre Amarela."
+        },
+        {
+          "nome_vacina": "Vacina Poliomielite Inativada",
+          "nome_tecnico": "IPV",
+          "fabricante": "GSK (GlaxoSmithKline)",
+          "dose": "6ª dose",
+          "data_vacinacao": "2016-10-14",
+          "numero_lote": "IPV5D2E9A",
+          "descricao": "Vacina contra poliomielite inativada."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2017-10-28",
+          "numero_lote": "INF2C5D1A",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2018-11-30",
+          "numero_lote": "INF9E8B4D",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2019-12-29",
+          "numero_lote": "INF6C1D8A",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Influenza",
+          "nome_tecnico": "Vacina Influenza",
+          "fabricante": "MedImmune",
+          "dose": "Anual",
+          "data_vacinacao": "2020-03-10",
+          "numero_lote": "INF3B7E9A",
+          "descricao": "Vacina contra Influenza (gripe)."
+        },
+        {
+          "nome_vacina": "Varicela (Catapora)",
+          "nome_tecnico": "Vacina Varicela",
+          "fabricante": "GlaxoSmithKline",
+          "dose": "1ª dose",
+          "data_vacinacao": "2020-11-04",
+          "numero_lote": "VZV8C1D2B",
+          "descricao": "Vacina contra Varicela (Catapora)."
+        }
+      ]
     }
   ]
 }
